@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.productos.medicamentos.frmMedicamentos">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="667" height="442"/>
+    </constraints>
+    <properties>
+      <background color="-6119583"/>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6b116" binding="jpaMedicamentos" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="800" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6119583"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="572ef" binding="jpaSuperior" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="465" height="66"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6119583"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="64bce" class="javax.swing.JButton" binding="btnAñadir">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="recursos/imagenes/text-plus-icon.png"/>
+                  <text value="Añadir"/>
+                </properties>
+              </component>
+              <component id="dea04" class="javax.swing.JButton" binding="btnVerCarrito">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="recursos/imagenes/shop-cart-icon (1).png"/>
+                  <text value="Ver Carrito"/>
+                </properties>
+              </component>
+              <component id="2ab5f" class="javax.swing.JButton" binding="btnAtras">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="recursos/imagenes/Go-back-icon.png"/>
+                  <text value="Atras"/>
+                </properties>
+              </component>
+              <component id="2830b" class="javax.swing.JButton" binding="btnInformacion">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="recursos/imagenes/Information-Search-24x24.png"/>
+                  <text value="Informacion"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="24d15" binding="jpaIzquierdo" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6119583"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4ad93" class="javax.swing.JRadioButton" binding="rbtGastroenteril">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6119583"/>
+                  <font size="18"/>
+                  <text value="Gastroenteril"/>
+                </properties>
+              </component>
+              <component id="251e" class="javax.swing.JRadioButton" binding="rbtDipramida">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6119583"/>
+                  <font size="18"/>
+                  <text value="Dipramida"/>
+                </properties>
+              </component>
+              <component id="812ee" class="javax.swing.JRadioButton" binding="rbtNaxpet">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6119583"/>
+                  <font size="18"/>
+                  <text value="Naxpet"/>
+                </properties>
+              </component>
+              <component id="5717c" class="javax.swing.JRadioButton" binding="rbtAllerbay">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6119583"/>
+                  <font size="18"/>
+                  <text value="Allerbay"/>
+                </properties>
+              </component>
+              <component id="e7d96" class="javax.swing.JRadioButton" binding="rbtGarrabaño">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6119583"/>
+                  <font size="18"/>
+                  <text value="Garrabaño"/>
+                </properties>
+              </component>
+              <component id="abf3f" class="javax.swing.JRadioButton" binding="rbtDrontal">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6119583"/>
+                  <font size="18"/>
+                  <text value="Drontal"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="e0a9e" class="javax.swing.JTextArea" binding="txtLista">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6119583"/>
+              <font size="16" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="4ad93"/>
+      <member id="251e"/>
+      <member id="812ee"/>
+      <member id="5717c"/>
+      <member id="e7d96"/>
+      <member id="abf3f"/>
+    </group>
+  </buttonGroups>
+</form>

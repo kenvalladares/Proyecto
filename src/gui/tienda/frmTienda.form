@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.tienda.frmTienda">
+  <grid id="27dc6" binding="jpaTienda" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="800" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="4bd04" binding="jpaMenuTienda" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-6119583"/>
+          <preferredSize width="800" height="400"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4869e" class="javax.swing.JButton" binding="btnProductos">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Productos"/>
+            </properties>
+          </component>
+          <component id="fca5c" class="javax.swing.JButton" binding="btnServicios">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Servicios"/>
+            </properties>
+          </component>
+          <component id="35854" class="javax.swing.JButton" binding="btnAtras">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="recursos/imagenes/Go-back-icon.png"/>
+              <text value="Atras"/>
+            </properties>
+          </component>
+          <component id="d5ae5" class="javax.swing.JLabel" binding="lvlImagenProducto">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="recursos/imagenes/bolsa-de-la-compra.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="aaf60" class="javax.swing.JLabel" binding="lvlImagenServicios">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="recursos/imagenes/veterinary.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
